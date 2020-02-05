@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Siteson 博客</title>
+    <link>http://siteson.github.io/post/</link>
+    <description>Recent content in Posts on Siteson 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://siteson.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>网站介绍</title>
+      <link>http://siteson.github.io/post/introduction/</link>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://siteson.github.io/post/introduction/</guid>
+      <description>【置顶】 您现在访问的是司想托管在github上的个人主页，网站名称为 Siteson。该网站主要分享一些计算机科学相关内容。与此同时，还有另一</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu使用V2ray科学上网</title>
+      <link>http://siteson.github.io/post/ubuntu-scientific-internet/</link>
+      <pubDate>Sun, 02 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/post/ubuntu-scientific-internet/</guid>
+      <description>随着时间的推移，许多陈年教程贴已经失效。所以我整理了一份较为全面的2020版供大家参考。 编写平台：Ubuntu 18.04 LTS 首先贴上ss的购买链接，在</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on Siteson 博客</title>
+    <link>http://siteson.github.io/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on Siteson 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 02 Feb 2020 16:01:23 +0800</lastBuildDate>
+    
+	<atom:link href="http://siteson.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu使用V2ray科学上网</title>
+      <link>http://siteson.github.io/post/ubuntu-scientific-internet/</link>
+      <pubDate>Sun, 02 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/post/ubuntu-scientific-internet/</guid>
+      <description>随着时间的推移，许多陈年教程贴已经失效。所以我整理了一份较为全面的2020版供大家参考。 编写平台：Ubuntu 18.04 LTS 首先贴上ss的购买链接，在</description>
+    </item>
+    
+  </channel>
+</rss>
