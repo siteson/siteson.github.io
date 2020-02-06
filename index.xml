@@ -57,8 +57,8 @@ Learn more and contribute on &lt;a href=&#34;https://github.com/siteson&#34;&gt;
 &lt;h1 id=&#34;ubuntu-使用-v2ray-科学上网懒人版&#34;&gt;Ubuntu 使用 v2ray 科学上网懒人版：&lt;/h1&gt;
 &lt;p&gt;简单有效的GUI（网友制作的开源项目，可以尝试）
 &lt;a href=&#34;https://github.com/jiangxufeng/v2rayL&#34;&gt;https://github.com/jiangxufeng/v2rayL&lt;/a&gt;
-但是目前来看并不十分稳定，如果不嫌麻烦，建议使用官方的终端版本&lt;/p&gt;
-&lt;h1 id=&#34;稳定终端版&#34;&gt;稳定终端版：&lt;/h1&gt;
+但是目前来看并不十分稳定，如果不嫌麻烦，建议使用官方的终端版，也就是下面的版本&lt;/p&gt;
+&lt;h1 id=&#34;终端版&#34;&gt;终端版：&lt;/h1&gt;
 &lt;h3 id=&#34;一通过snap安装v2ray&#34;&gt;一、通过snap安装v2ray&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;$ sudo snap install v2ray-core&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;由于终端下不支持使用订阅链接，所以填写配置信息需要先转到windows平台，在windows端的v2rayN安装目录中找到 config.json ，然后&lt;/p&gt;
