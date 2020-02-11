@@ -55,16 +55,24 @@ Learn more and contribute on &lt;a href=&#34;https://github.com/siteson&#34;&gt;
 &lt;p&gt;首先贴上ss的购买链接，在这里你可以买到一份服务器端的账号：&lt;br&gt;
 &lt;a href=&#34;http://jsssa.top/W9MKK&#34;&gt;http://jsssa.top/W9MKK&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;ubuntu-使用-v2ray-科学上网懒人版&#34;&gt;Ubuntu 使用 v2ray 科学上网懒人版：&lt;/h1&gt;
-&lt;p&gt;简单有效的GUI（网友制作的开源项目，可以尝试）
-&lt;a href=&#34;https://github.com/jiangxufeng/v2rayL&#34;&gt;https://github.com/jiangxufeng/v2rayL&lt;/a&gt;
-但是目前来看并不十分稳定，如果不嫌麻烦，建议使用官方的终端版，也就是下面的版本&lt;/p&gt;
+&lt;p&gt;简单有效的GUI（网友制作的开源项目，可以尝试）&lt;br&gt;
+&lt;a href=&#34;https://github.com/jiangxufeng/v2rayL&#34;&gt;https://github.com/jiangxufeng/v2rayL&lt;/a&gt;&lt;br&gt;
+但是目前来看并不十分稳定，如果不嫌麻烦，建议使用官方的终端版，也就是下面的版本。&lt;/p&gt;
 &lt;h1 id=&#34;终端版&#34;&gt;终端版：&lt;/h1&gt;
 &lt;h3 id=&#34;一通过snap安装v2ray&#34;&gt;一、通过snap安装v2ray&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;$ sudo snap install v2ray-core&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;由于终端下不支持使用订阅链接，所以填写配置信息需要先转到windows平台，在windows端的v2rayN安装目录中找到 config.json ，然后&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 以管理员身份打开文件管理器&lt;/span&gt;
- $ sudo nautilus
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;替换 /etc/v2ray/config.json&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 以管理员身份打开文件管理器&lt;/span&gt;
+sudo nautilus
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;替换 /etc/v2ray/config.json&lt;/p&gt;
 &lt;h3 id=&#34;二操作-v2ray&#34;&gt;二、操作 v2ray&lt;/h3&gt;
 &lt;p&gt;启动 V2Ray:
 &lt;code&gt;$ sudo service v2ray start&lt;/code&gt;&lt;/p&gt;
@@ -81,7 +89,7 @@ Learn more and contribute on &lt;a href=&#34;https://github.com/siteson&#34;&gt;
 &lt;blockquote&gt;
 &lt;p&gt;在不使用代理的时候需要重新设为禁用，否则stop v2ray后会失去网络连接。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/21011901-8ca258f0c74b0d06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;2020-01-26 03-39-12屏幕截图.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/ubuntu-scientific-internet/03-39-12.png&#34; alt=&#34;2020-01-26 03-39-12屏幕截图.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;方法b：&lt;/p&gt;
 &lt;p&gt;使用 SwitchyOmega 插件进行带PAC模式的连接。&lt;/p&gt;
 &lt;p&gt;安装 SwitchyOmega 插件：
@@ -110,14 +118,27 @@ Learn more and contribute on &lt;a href=&#34;https://github.com/siteson&#34;&gt;
 在你的命令前加上 &lt;code&gt;proxychains&lt;/code&gt; 如：&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;proxychains wget www.google.com
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;proxychains wget www.google.com
 sudo proxychains wget www.google.com
 
-&lt;span style=&#34;color:#75715e&#34;&gt;# 使用步奏总结：&lt;/span&gt;
+&lt;span class=&#34;c1&#34;&gt;# 使用步奏总结：&lt;/span&gt;
 sudo service v2ray start
-proxychains &lt;span style=&#34;color:#75715e&#34;&gt;# 你的命令&lt;/span&gt;
+proxychains &lt;span class=&#34;c1&#34;&gt;# 你的命令&lt;/span&gt;
 sudo service v2ray stop
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;四配置-pac&#34;&gt;四、配置 PAC&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;四配置-pac&#34;&gt;四、配置 PAC&lt;/h3&gt;
 &lt;p&gt;PAC(Proxy auto-config)：使国内网站依旧走本地网络
 我们通过&lt;a href=&#34;https://github.com/JinnLynn/genpac&#34;&gt;GenPAC&lt;/a&gt;来生成pac文件&lt;/p&gt;
 &lt;ol&gt;
@@ -131,7 +152,7 @@ sudo service v2ray stop
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;把pac文件的位置填入自动网络代理的“配置URL”中：&lt;br&gt;
-&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/21011901-aa9125ace3c63ea6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;2020-01-26 03-49-13屏幕截图.jpg&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;http://siteson.github.io/images/ubuntu-scientific-internet/03-49-13.png&#34; alt=&#34;2020-01-26 03-49-13屏幕截图.jpg&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;nbsp&#34;&gt; &lt;/h2&gt;

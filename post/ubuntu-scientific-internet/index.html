@@ -69,7 +69,7 @@
 <meta itemprop="description" content="随着时间的推移，许多陈年教程贴已经失效。所以我整理了一份较为全面的2020版供大家参考。 编写平台：Ubuntu 18.04 LTS 首先贴上ss的购买链接，在">
 <meta itemprop="datePublished" content="2020-02-02T16:01:23&#43;08:00" />
 <meta itemprop="dateModified" content="2020-02-02T16:01:23&#43;08:00" />
-<meta itemprop="wordCount" content="834">
+<meta itemprop="wordCount" content="843">
 
 
 
@@ -305,7 +305,7 @@
             <a href="http://siteson.github.io/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"> 科学上网 </a>
             
           </div>
-        <span class="more-meta"> 约 834 字 </span>
+        <span class="more-meta"> 约 843 字 </span>
           <span class="more-meta"> 预计阅读 2 分钟 </span>
 
         
@@ -332,16 +332,24 @@
 <p>首先贴上ss的购买链接，在这里你可以买到一份服务器端的账号：<br>
 <a href="http://jsssa.top/W9MKK">http://jsssa.top/W9MKK</a></p>
 <h1 id="ubuntu-使用-v2ray-科学上网懒人版">Ubuntu 使用 v2ray 科学上网懒人版：</h1>
-<p>简单有效的GUI（网友制作的开源项目，可以尝试）
-<a href="https://github.com/jiangxufeng/v2rayL">https://github.com/jiangxufeng/v2rayL</a>
-但是目前来看并不十分稳定，如果不嫌麻烦，建议使用官方的终端版，也就是下面的版本</p>
+<p>简单有效的GUI（网友制作的开源项目，可以尝试）<br>
+<a href="https://github.com/jiangxufeng/v2rayL">https://github.com/jiangxufeng/v2rayL</a><br>
+但是目前来看并不十分稳定，如果不嫌麻烦，建议使用官方的终端版，也就是下面的版本。</p>
 <h1 id="终端版">终端版：</h1>
 <h3 id="一通过snap安装v2ray">一、通过snap安装v2ray</h3>
 <p><code>$ sudo snap install v2ray-core</code></p>
 <p>由于终端下不支持使用订阅链接，所以填写配置信息需要先转到windows平台，在windows端的v2rayN安装目录中找到 config.json ，然后</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#75715e"># 以管理员身份打开文件管理器</span>
- $ sudo nautilus
-</code></pre></div><p>替换 /etc/v2ray/config.json</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 以管理员身份打开文件管理器</span>
+sudo nautilus
+</code></pre></td></tr></table>
+</div>
+</div><p>替换 /etc/v2ray/config.json</p>
 <h3 id="二操作-v2ray">二、操作 v2ray</h3>
 <p>启动 V2Ray:
 <code>$ sudo service v2ray start</code></p>
@@ -358,7 +366,7 @@
 <blockquote>
 <p>在不使用代理的时候需要重新设为禁用，否则stop v2ray后会失去网络连接。</p>
 </blockquote>
-<p><img src="https://upload-images.jianshu.io/upload_images/21011901-8ca258f0c74b0d06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2020-01-26 03-39-12屏幕截图.png"></p>
+<p><img src="/images/ubuntu-scientific-internet/03-39-12.png" alt="2020-01-26 03-39-12屏幕截图.png"></p>
 <p>方法b：</p>
 <p>使用 SwitchyOmega 插件进行带PAC模式的连接。</p>
 <p>安装 SwitchyOmega 插件：
@@ -387,14 +395,27 @@
 在你的命令前加上 <code>proxychains</code> 如：</p>
 </li>
 </ol>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">proxychains wget www.google.com
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">proxychains wget www.google.com
 sudo proxychains wget www.google.com
 
-<span style="color:#75715e"># 使用步奏总结：</span>
+<span class="c1"># 使用步奏总结：</span>
 sudo service v2ray start
-proxychains <span style="color:#75715e"># 你的命令</span>
+proxychains <span class="c1"># 你的命令</span>
 sudo service v2ray stop
-</code></pre></div><h3 id="四配置-pac">四、配置 PAC</h3>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="四配置-pac">四、配置 PAC</h3>
 <p>PAC(Proxy auto-config)：使国内网站依旧走本地网络
 我们通过<a href="https://github.com/JinnLynn/genpac">GenPAC</a>来生成pac文件</p>
 <ol>
@@ -408,7 +429,7 @@ sudo service v2ray stop
 </li>
 <li>
 <p>把pac文件的位置填入自动网络代理的“配置URL”中：<br>
-<img src="https://upload-images.jianshu.io/upload_images/21011901-aa9125ace3c63ea6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2020-01-26 03-49-13屏幕截图.jpg"></p>
+<img src="/images/ubuntu-scientific-internet/03-49-13.png" alt="2020-01-26 03-49-13屏幕截图.jpg"></p>
 </li>
 </ol>
 <h2 id="nbsp"> </h2>
@@ -610,7 +631,8 @@ sudo service v2ray stop
 
 
 
-<script type="text/javascript" src="/js/main.dee43230127a73d039a734510fa896c89c3c7ce0cf0be0c7a7433f8fd69b76dc.js" integrity="sha256-3uQyMBJ6c9A5pzRRD6iWyJw8fODPC&#43;DHp0M/j9abdtw=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/main.dee43230127a73d039a734510fa896c89c3c7ce0cf0be0c7a7433f8fd69b76dc.js" crossorigin="anonymous"></script>
+
 
 
 
