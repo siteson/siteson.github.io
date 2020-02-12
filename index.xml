@@ -48,7 +48,8 @@ Learn more and contribute on &lt;a href=&#34;https://github.com/siteson&#34;&gt;
       
       <guid>http://siteson.github.io/post/ubuntu-scientific-internet/</guid>
       
-        <description>&lt;blockquote&gt;
+        <description>&lt;h1 id=&#34;前言&#34;&gt;前言：&lt;/h1&gt;
+&lt;blockquote&gt;
 &lt;p&gt;随着时间的推移，许多陈年教程贴已经失效。所以我整理了一份较为全面的2020版供大家参考。&lt;br&gt;
 编写平台：Ubuntu 18.04 LTS&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -60,7 +61,7 @@ Learn more and contribute on &lt;a href=&#34;https://github.com/siteson&#34;&gt;
 但是目前来看并不十分稳定，如果不嫌麻烦，建议使用官方的终端版，也就是下面的版本。&lt;/p&gt;
 &lt;h1 id=&#34;终端版&#34;&gt;终端版：&lt;/h1&gt;
 &lt;h3 id=&#34;一通过snap安装v2ray&#34;&gt;一、通过snap安装v2ray&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;$ sudo snap install v2ray-core&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo snap install v2ray-core&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;由于终端下不支持使用订阅链接，所以填写配置信息需要先转到windows平台，在windows端的v2rayN安装目录中找到 config.json ，然后&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -68,20 +69,16 @@ Learn more and contribute on &lt;a href=&#34;https://github.com/siteson&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 以管理员身份打开文件管理器&lt;/span&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 以管理员身份打开文件管理器&lt;/span&gt;
 sudo nautilus
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;替换 /etc/v2ray/config.json&lt;/p&gt;
 &lt;h3 id=&#34;二操作-v2ray&#34;&gt;二、操作 v2ray&lt;/h3&gt;
-&lt;p&gt;启动 V2Ray:
-&lt;code&gt;$ sudo service v2ray start&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;停止 V2Ray：
-&lt;code&gt;$ sudo service v2ray stop&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;重启 V2Ray:
-&lt;code&gt;$ sudo service v2ray restart&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;显示 V2Ray 状态：
-&lt;code&gt;$ service v2ray status&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;启动 V2Ray： &lt;code&gt;sudo service v2ray start&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;停止 V2Ray： &lt;code&gt;sudo service v2ray stop&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;重启 V2Ray： &lt;code&gt;sudo service v2ray restart&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;显示 V2Ray 状态： &lt;code&gt;service v2ray status&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;三设置代理&#34;&gt;三、设置代理&lt;/h3&gt;
 &lt;h4 id=&#34;浏览器下的代理&#34;&gt;浏览器下的代理：&lt;/h4&gt;
 &lt;p&gt;方法a：&lt;/p&gt;
@@ -101,17 +98,17 @@ sudo nautilus
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;下载proxy-chain：&lt;br&gt;
-&lt;code&gt;$ sudo apt install proxychains&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;sudo apt install proxychains&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;修改参数:&lt;br&gt;
-&lt;code&gt;$ sudo nano /etc/proxychains.conf&lt;/code&gt;&lt;br&gt;
-最后一行改为：&lt;code&gt;socks5 127.0.0.1 10808&lt;/code&gt;&lt;br&gt;
-这里的10808就是v2ray的socks5 代理端口,要保持和config里一致.&lt;/p&gt;
+&lt;code&gt;sudo nano /etc/proxychains.conf&lt;/code&gt;&lt;br&gt;
+最后一行改为： socks5 127.0.0.1 10808&lt;br&gt;
+这里的10808就是v2ray的socks5 代理端口，要保持和config里一致。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;测试proxy-chain:&lt;br&gt;
-&lt;code&gt;$ proxychains wget http://www.google.com&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;proxychains wget http://www.google.com&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;使用proxy-chain:&lt;br&gt;
@@ -129,7 +126,7 @@ sudo nautilus
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;proxychains wget www.google.com
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;proxychains wget www.google.com
 sudo proxychains wget www.google.com
 
 &lt;span class=&#34;c1&#34;&gt;# 使用步奏总结：&lt;/span&gt;
@@ -144,11 +141,11 @@ sudo service v2ray stop
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;安装&lt;br&gt;
-&lt;code&gt;$ pip install genpac&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;pip install genpac&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;从gfwlist生成代理信息为SOCKS5 127.0.0.1:10808的PAC文件&lt;br&gt;
-&lt;code&gt;$ genpac --format=pac --pac-proxy=&amp;quot;SOCKS5 127.0.0.1:10808&amp;quot; -o /etc/v2ray/autoproxy.pac&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;genpac --format=pac --pac-proxy=&amp;quot;SOCKS5 127.0.0.1:10808&amp;quot; -o /etc/v2ray/autoproxy.pac&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;把pac文件的位置填入自动网络代理的“配置URL”中：&lt;br&gt;
