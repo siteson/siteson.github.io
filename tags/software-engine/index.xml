@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software engine on Siteson 博客</title>
+    <link>http://siteson.github.io/tags/software-engine/</link>
+    <description>Recent content in software engine on Siteson 博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 28 Feb 2020 16:01:23 +0800</lastBuildDate>
+    
+	<atom:link href="http://siteson.github.io/tags/software-engine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>第四章：MVC框架模式案例分析</title>
+      <link>http://siteson.github.io/post/example-of-mvc-mode/</link>
+      <pubDate>Fri, 28 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/post/example-of-mvc-mode/</guid>
+      <description>前言 Slime是一个基于MVC模式的PHP框架，它非常简单且功能强大。 对于分析MVC框架模式来说，这是一个很好的例子。 Part 1 有空再写 结语 null Reference MVC.wiki</description>
+    </item>
+    
+    <item>
+      <title>第三章：MVC与其他框架模式的比较</title>
+      <link>http://siteson.github.io/post/compare-mvc-with-anothers/</link>
+      <pubDate>Wed, 26 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/post/compare-mvc-with-anothers/</guid>
+      <description>前言 复杂的软件必须有清晰合理的架构，否则无法开发和维护。 MVC（Model-View-Controller）是最常见的软件架构之一，业界有着</description>
+    </item>
+    
+    <item>
+      <title>第二章：MVC框架模式发展史</title>
+      <link>http://siteson.github.io/post/history-of-mvc-mode/</link>
+      <pubDate>Tue, 25 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/post/history-of-mvc-mode/</guid>
+      <description>前言： 上一章节我们基本认识了MVC框架模式，本章我们将从历史的角度深入了解MVC，重点介绍它的应用分支以及发展现状。 波澜壮阔的MVC发展史 M</description>
+    </item>
+    
+    <item>
+      <title>第一章：认识MVC框架模式</title>
+      <link>http://siteson.github.io/post/what-is-mvc-mode/</link>
+      <pubDate>Mon, 17 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/post/what-is-mvc-mode/</guid>
+      <description>前言 如何设计一个程序的结构，这是一门专门的学问，叫做&amp;quot;框架模式&amp;rdquo;（architectural pattern），属于编程</description>
+    </item>
+    
+  </channel>
+</rss>

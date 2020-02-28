@@ -6,7 +6,7 @@
     <description>Recent content on Siteson 博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2020 16:01:23 +0800</lastBuildDate>
     
         <atom:link href="http://siteson.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,7 +18,7 @@
       
       <guid>http://siteson.github.io/post/introduction/</guid>
       
-        <description>&lt;p&gt;&lt;strong&gt;【置顶】&lt;/strong&gt; 您现在访问的是司想托管在github上的个人主页，网站名称为 Siteson。该网站主要分享一些计算机科学相关内容。与此同时，还有另一个具有独立域名的网站正在搭建，搭建完成后我会将主页分享到评论区。那个网站已在国内备案，拥有cdn加速，主要负责分享一些随笔、学习资料，以及我的本职工作-影视技术相关的内容。&lt;/p&gt;
+        <description>&lt;p&gt;您现在访问的是司想托管在github上的个人主页，网站名称为 Siteson。该网站主要分享一些计算机科学相关内容。与此同时，还有另一个具有独立域名的网站正在搭建，搭建完成后我会将主页分享到评论区。那个网站已在国内备案，拥有cdn加速，主要负责分享一些随笔、学习资料，以及我的本职工作-影视技术相关的内容。&lt;/p&gt;
 &lt;p&gt;使用git仓库搭建博客是 &lt;a href=&#34;https://help.github.com/en/github/site-policy/github-terms-of-service&#34;&gt;GitHub服务条款&lt;/a&gt; 所允许的活动，但由于git在部分地区经常被限流，所以本站偶尔会出现无法访问的情况，此属于正常现象。&lt;/p&gt;
 &lt;p&gt;我的联络方式已经分享到了 &lt;a href=&#34;http://siteson.github.io/about/&#34;&gt;关于&lt;/a&gt; 页面，欢迎与我交流。&lt;/p&gt;
 </description>
@@ -42,23 +42,337 @@ Learn more and contribute on &lt;a href=&#34;https://github.com/siteson&#34;&gt;
     </item>
     
     <item>
-      <title>Ubuntu使用V2ray科学上网</title>
+      <title>第四章：MVC框架模式案例分析</title>
+      <link>http://siteson.github.io/post/example-of-mvc-mode/</link>
+      <pubDate>Fri, 28 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/post/example-of-mvc-mode/</guid>
+      
+        <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.slimframework.com/&#34;&gt;Slime&lt;/a&gt;是一个基于MVC模式的PHP框架，它非常简单且功能强大。&lt;/p&gt;
+&lt;p&gt;对于分析MVC框架模式来说，这是一个很好的例子。&lt;/p&gt;
+&lt;h3 id=&#34;part-1&#34;&gt;Part 1&lt;/h3&gt;
+&lt;p&gt;有空再写&lt;/p&gt;
+&lt;h1 id=&#34;结语&#34;&gt;结语&lt;/h1&gt;
+&lt;p&gt;null&lt;/p&gt;
+&lt;h1 id=&#34;reference&#34;&gt;Reference&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/MVC&#34;&gt;MVC.wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://heim.ifi.uio.no/~trygver/themes/mvc/mvc-index.html&#34;&gt;mvc-index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html#//apple_ref/doc/uid/TP40008195-CH32-SW1&#34;&gt;Model-View-Controller.Cocoa-Core-Competencies.apple-developer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.slimframework.com/docs/v4/&#34;&gt;Slim 4 Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;index&#34;&gt;Index&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;http://siteson.github.io/categories/mvc%E6%A1%86%E6%9E%B6%E6%A8%A1%E5%BC%8F/&#34;&gt;MVC框架模式系列&lt;/a&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/what-is-mvc-mode/&#34;&gt;第一章：认识MVC框架模式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/history-of-mvc-mode/&#34;&gt;第二章：MVC框架模式发展史&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/compare-mvc-with-anothers/&#34;&gt;第三章：MVC与其他框架模式的比较&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/example-of-mvc-mode/&#34;&gt;第四章：MVC框架模式案例分析&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>第三章：MVC与其他框架模式的比较</title>
+      <link>http://siteson.github.io/post/compare-mvc-with-anothers/</link>
+      <pubDate>Wed, 26 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/post/compare-mvc-with-anothers/</guid>
+      
+        <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+&lt;p&gt;复杂的软件必须有清晰合理的架构，否则无法开发和维护。&lt;/p&gt;
+&lt;p&gt;MVC（Model-View-Controller）是最常见的软件架构之一，业界有着广泛应用。它本身很容易理解，但是要讲清楚它与衍生的 MVP 和 MVVM 架构的区别就不容易了。&lt;/p&gt;
+&lt;p&gt;昨天晚上，我读了&lt;a href=&#34;http://blog.nodejitsu.com/scaling-isomorphic-javascript-code/&#34;&gt;《Scaling Isomorphic Javascript Code》&lt;/a&gt;，突然意识到，它们的区别非常简单。我用几段话，就可以说清。&lt;/p&gt;
+&lt;p&gt;阮一峰&lt;br&gt;
+2015年2月1日&lt;/p&gt;
+&lt;h2 id=&#34;一mvc&#34;&gt;一、MVC&lt;/h2&gt;
+&lt;p&gt;MVC模式的意思是，软件可以分成三个部分。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/compare-mvc-with-anothers/20200226001.png&#34; alt=&#34;mvc1.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;视图（View）：用户界面&lt;/li&gt;
+&lt;li&gt;控制器（Controller）：业务逻辑&lt;/li&gt;
+&lt;li&gt;模型（Model）：数据保存&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;各部分之间的通信方式如下:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/compare-mvc-with-anothers/20200226002.png&#34; alt=&#34;mvc2.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;View 传送指令到 Controller&lt;/li&gt;
+&lt;li&gt;Controller 完成业务逻辑后，要求 Model 改变状态&lt;/li&gt;
+&lt;li&gt;Model 将新的数据发送到 View，用户得到反馈&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;所有通信都是单向的。&lt;/p&gt;
+&lt;h2 id=&#34;二互动模式&#34;&gt;二、互动模式&lt;/h2&gt;
+&lt;p&gt;接受用户指令时，MVC 可以分成两种方式。一种是通过 View 接受指令，传递给 Controller。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/compare-mvc-with-anothers/20200226003.png&#34; alt=&#34;interact.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;另一种是直接通过controller接受指令。&lt;/p&gt;
+&lt;h2 id=&#34;三实例backbone&#34;&gt;三、实例：Backbone&lt;/h2&gt;
+&lt;p&gt;实际项目往往采用更灵活的方式，以 &lt;a href=&#34;https://github.com/jashkenas/backbone/&#34;&gt;Backbone.js&lt;/a&gt; 为例。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/compare-mvc-with-anothers/20200226004.png&#34; alt=&#34;backbone.png&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;用户可以向 View 发送指令（DOM 事件），再由 View 直接要求 Model 改变状态。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用户也可以直接向 Controller 发送指令（改变 URL 触发 hashChange 事件），再由 Controller 发送给 View。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Controller 非常薄，只起到路由的作用，而 View 非常厚，业务逻辑都部署在 View。所以，Backbone 索性取消了 Controller，只保留一个 Router（路由器） 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;四mvp&#34;&gt;四、MVP&lt;/h2&gt;
+&lt;p&gt;MVP 模式将 Controller 改名为 Presenter，同时改变了通信方向。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/compare-mvc-with-anothers/20200226005.png&#34; alt=&#34;mvp.png&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;各部分之间的通信，都是双向的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;View 与 Model 不发生联系，都通过 Presenter 传递。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;View 非常薄，不部署任何业务逻辑，称为&amp;quot;被动视图&amp;rdquo;（Passive View），即没有任何主动性，而 Presenter非常厚，所有逻辑都部署在那里。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;五mvvm&#34;&gt;五、MVVM&lt;/h2&gt;
+&lt;p&gt;MVVM 模式将 Presenter 改名为 ViewModel，基本上与 MVP 模式完全一致。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/compare-mvc-with-anothers/20200226006.png&#34; alt=&#34;mvvm.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;唯一的区别是，它采用双向绑定（data-binding）：View的变动，自动反映在 ViewModel，反之亦然。&lt;a href=&#34;https://angularjs.org/&#34;&gt;Angular&lt;/a&gt; 和 &lt;a href=&#34;https://emberjs.com/&#34;&gt;Ember&lt;/a&gt; 都采用这种模式。&lt;/p&gt;
+&lt;h1 id=&#34;结语&#34;&gt;结语&lt;/h1&gt;
+&lt;p&gt;在前面的章节中，我们学习了MVC的基本原理，梳理了它的发展历史，本章MVC与其他框架模式的比较也到此结束。看完这些，相信你已经能够掌握它的设计思路。在&lt;a href=&#34;http://siteson.github.io/post/example-of-mvc-mode/&#34;&gt;下一章节&lt;/a&gt;中我将为大家剖析一个使用MVC模式架构的应用，一起从入门到精通！&lt;/p&gt;
+&lt;h1 id=&#34;reference&#34;&gt;Reference&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/MVC&#34;&gt;MVC.wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://heim.ifi.uio.no/~trygver/themes/mvc/mvc-index.html&#34;&gt;mvc-index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html#//apple_ref/doc/uid/TP40008195-CH32-SW1&#34;&gt;Model-View-Controller.Cocoa-Core-Competencies.apple-developer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html&#34;&gt;MVC，MVP 和 MVVM 的图示 - 阮一峰&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;index&#34;&gt;Index&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;http://siteson.github.io/categories/mvc%E6%A1%86%E6%9E%B6%E6%A8%A1%E5%BC%8F/&#34;&gt;MVC框架模式系列&lt;/a&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/what-is-mvc-mode/&#34;&gt;第一章：认识MVC框架模式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/history-of-mvc-mode/&#34;&gt;第二章：MVC框架模式发展史&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/compare-mvc-with-anothers/&#34;&gt;第三章：MVC与其他框架模式的比较&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/example-of-mvc-mode/&#34;&gt;第四章：MVC框架模式案例分析&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>第二章：MVC框架模式发展史</title>
+      <link>http://siteson.github.io/post/history-of-mvc-mode/</link>
+      <pubDate>Tue, 25 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/post/history-of-mvc-mode/</guid>
+      
+        <description>&lt;h1 id=&#34;前言&#34;&gt;前言：&lt;/h1&gt;
+&lt;p&gt;上一章节我们基本认识了MVC框架模式，本章我们将从历史的角度深入了解MVC，重点介绍它的应用分支以及发展现状。&lt;/p&gt;
+&lt;h1 id=&#34;波澜壮阔的mvc发展史&#34;&gt;波澜壮阔的MVC发展史&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;MVC模式&lt;/strong&gt; 最早是由Trygve Reenskaug在1978年提出的一种软件架构，其目的是实现一种动态的程序设计，使后续对程序的修改和扩展简化，并且使程序某一部分的重复利用成为可能，并使程序结构更加直观。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;一model1-模式的出现让混沌世界出现一丝曙光&#34;&gt;一、Model1 模式的出现，让混沌世界出现一丝曙光&lt;/h2&gt;
+&lt;p&gt;Model1 模式&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;十分简单，它使用 JSP 页面和 JavaBean 相结合的方式，由 JSP 页面来接收客户端请求，用 JavaBean&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; 或其他服务完成业务逻辑、数据库操作和返回页面。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/history-of-mvc-mode/1_model1.png&#34; alt=&#34;model1.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;11-model1-模式的优缺点&#34;&gt;1.1 Model1 模式的优缺点&lt;/h3&gt;
+&lt;p&gt;（1）优点：架构简单，比较适合小型项目开发&lt;br&gt;
+（2）缺点：JSP 职责不单一，职责过重，不便于维护&lt;/p&gt;
+&lt;h2 id=&#34;二model2mvc开发模式让刀耕火种的原始时代迈入了石器时代社会开始分工生产更加有秩序&#34;&gt;二、Model2（MVC）开发模式，让刀耕火种的原始时代迈入了石器时代，社会开始分工，生产更加有秩序&lt;/h2&gt;
+&lt;p&gt;Model1 虽然在一定程度上实现了解耦，但 JSP 依旧即要负责页面控制，又要负责逻辑处理，职责不单一。此时 Model2 应运而生，使得各个部分各司其职。 Model2 基于 MVC 模式：&lt;/p&gt;
+&lt;p&gt;（1）Controller：应用程序中用户交互部分（Servlet）&lt;br&gt;
+（2）Model：应用程序数据逻辑部分（JavaBeans）&lt;br&gt;
+（3）View：数据显示部分（JSP）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/history-of-mvc-mode/2_model2.png&#34; alt=&#34;model2.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;21-model2-模式的优缺点&#34;&gt;2.1 Model2 模式的优缺点&lt;/h3&gt;
+&lt;p&gt;（1）优点：职责清晰，较适合于大型项目架构&lt;br&gt;
+（2）缺点：分层较多，不适合小型项目开发&lt;/p&gt;
+&lt;h3 id=&#34;22-model1-和-model2-区别&#34;&gt;2.2 Model1 和 Model2 区别&lt;/h3&gt;
+&lt;p&gt;Model2 在 Model1 的基础上分离了控制，将 JSP 中的逻辑操作部分分离出来，这样做不仅减轻了 JSP 的职责，而且更有利于分工开发，耦合性降低。对于复杂的 Web 应用开发，更适合使用 Model2，而对于小型应用，使用Model1 比较简单。&lt;/p&gt;
+&lt;h2 id=&#34;三struts1-登上历史舞台但又匆匆走过&#34;&gt;三、Struts1 登上历史舞台，但又匆匆走过&lt;/h2&gt;
+&lt;h3 id=&#34;31-struts1-诞生背景&#34;&gt;3.1 Struts1 诞生背景&lt;/h3&gt;
+&lt;p&gt;Struts1&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; 出现的目的是为了帮助我们减少在运用MVC设计模型来开发Web应用的时间，使用Struts1可以提高系统的维护和开发效率，我们只需要配置和编码实现Action和ActionForm就可以了。&lt;/p&gt;
+&lt;h3 id=&#34;32-struts1-组成部分&#34;&gt;3.2 Struts1 组成部分&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/history-of-mvc-mode/3_2_struts1.jpg&#34; alt=&#34;struts1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;下面，对比一下Servlet和Struts1的执行过程，我们更能看清楚两者的区别。&lt;/p&gt;
+&lt;h3 id=&#34;33-servlet-执行过程&#34;&gt;3.3 Servlet 执行过程&lt;/h3&gt;
+&lt;p&gt;需要再每个页面都设置一个Servlet类来处理请求和响应，再获取用户提交的数据和再把数据与持久化类对应起来。再做判断，决定跳转，再让JSP显示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/history-of-mvc-mode/3_3_servlet.png&#34; alt=&#34;servlet.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;34-struts1-执行过程&#34;&gt;3.4 Struts1 执行过程&lt;/h3&gt;
+&lt;p&gt;使用Struts1时，通过运行时（runtime）初始化ActionServlet，再把所有持久化类的各个属性设为null。当有请求来时，通过name属性找到form-beans中form-bean的name属性，得到ActionForm的包名类名。然后实例化form，把用户数据提交给它，调用form的validate 方法验证。ActionErrors返回null表示验证通过，否则失败返回。验证通过会根据请求的Action类型实例化Action，执行Action的execute方法。根据传进来的ActionForm持久化对象可以取到传进来的数据，这个数据可以先和数据库中的数据交互，再决定跳转。&lt;br&gt;
+也就是说Struts1封装了request.getParameter()，再把数据传给JavaBean持久化类。另外，Struts1弥补了JPS标签的不足，为开发提供了便利。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/history-of-mvc-mode/3_4_struts1.png&#34; alt=&#34;3_4_struts1.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;四struts2-框架雄心勃勃但又毁誉参半&#34;&gt;四、Struts2 框架，雄心勃勃，但又毁誉参半&lt;/h2&gt;
+&lt;h3 id=&#34;41-struts2-诞生背景&#34;&gt;4.1 Struts2 诞生背景&lt;/h3&gt;
+&lt;p&gt;Struts2和Struts1的差别巨大，Struts2以WebWork为核心，采用拦截器的机制来处理用户的请求，这样的设计也使得业务逻辑控制器能够与Servlet API完全脱离开。&lt;/p&gt;
+&lt;h3 id=&#34;42-struts1与struts2的区别&#34;&gt;4.2 Struts1与Struts2的区别&lt;/h3&gt;
+&lt;p&gt;下面主要从Action类，线程模式，Servlet依赖，捕获输入，以及表达式语言等五个方面来进行比较。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;（1）Action类&lt;br&gt;
+Struts1要求Action类继承一个抽象基类；Struts2要求Action类可以实现一个Action接口，也可以实现其他接口。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;（2）线程模式&lt;br&gt;
+Struts1是单例设计模式并且必须是线程安全的，因为仅有一个Action的实例来处理所有请求。而Struts2为每一个请求产生一个实例，因此没有线程安全问题。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;（3）Servlet依赖&lt;br&gt;
+Struts1 Action依赖于Servlet API，因为当一个ACtion被调用时HttpservletRequest和HttpServletResponse被传递给execute方法。Struts2 Action不依赖于容器，允许Action脱离容器单独被测试。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;（4）捕获输入&lt;br&gt;
+Struts1 使用ActionForm对象捕获输入，所有的Actionform必须继承一个基类。而Struts2直接使用Action属性作为输入属性。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;（5）表达式语言&lt;br&gt;
+Struts1 整合了JSTL El表达式。而Struts2不仅可以使用JSTL，也支持ognl表达式语言。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;43-struts2-的安全问题异常严峻&#34;&gt;4.3 Struts2 的安全问题异常严峻&lt;/h3&gt;
+&lt;p&gt;Struts2在前几年可谓是非常流行，不管你去哪个公司面试，都要求会SSH，这时的SS指的是Spring和Struts2，曾经风靡一时的Struts2最终被SpringMVC所取代。Struts2 的安全漏洞，让不少大小公司吃尽了苦头，慢慢磨掉了用户的信心。&lt;/p&gt;
+&lt;h2 id=&#34;五springmvc-如日中天&#34;&gt;五、SpringMVC 如日中天&lt;/h2&gt;
+&lt;h3 id=&#34;51-springmvc-原理&#34;&gt;5.1 SpringMVC 原理&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/history-of-mvc-mode/5_1_springmvc.jpg&#34; alt=&#34;5_1_springmvc.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Spring&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;, SpringMVC&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3 id=&#34;52-springmvc和struts2的区别&#34;&gt;5.2 SpringMVC和Struts2的区别&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;（1）入口不同&lt;br&gt;
+SpringMVC入口是servlet，Struts2入口是filter。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;（2）生命周期不同&lt;br&gt;
+SpringMVC Controller是单例的，所以效率更高，但是不能使用成员变量获取参数。
+Struts2 Action是多例的，可以使用成员变量获取参数，导致效率比较低。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;SpringMVC中文官网： &lt;a href=&#34;http://www.springmvc.cn/&#34;&gt;http://www.springmvc.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;结语&#34;&gt;结语&lt;/h1&gt;
+&lt;p&gt;起至今日的MVC发展史就介绍到这里。随着对MVC的使用，我们发现它也存在诸多不适用的地方，因此市面上也诞生了许多别的模式，如：MVP、MVVM等。所以我们应该从实际项目出发，使用适合的模式，甚至不严格遵循某一模式。&lt;br&gt;
+关于框架模式如何挑选，想要了解MVC和别的主流框架模式的区别，请看下一章节。&lt;/p&gt;
+&lt;h1 id=&#34;reference&#34;&gt;Reference&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/MVC&#34;&gt;MVC.wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://heim.ifi.uio.no/~trygver/themes/mvc/mvc-index.html&#34;&gt;mvc-index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html#//apple_ref/doc/uid/TP40008195-CH32-SW1&#34;&gt;Model-View-Controller.Cocoa-Core-Competencies.apple-developer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://draveness.me/mvx&#34;&gt;浅谈 MVC、MVP 和 MVVM 架构模式 - 面向信仰编程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mybatis.cn/archives/634.html&#34;&gt;波澜壮阔的MVC发展史 - MyBatis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;index&#34;&gt;Index&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;http://siteson.github.io/categories/mvc%E6%A1%86%E6%9E%B6%E6%A8%A1%E5%BC%8F/&#34;&gt;MVC框架模式系列&lt;/a&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/what-is-mvc-mode/&#34;&gt;第一章：认识MVC框架模式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/history-of-mvc-mode/&#34;&gt;第二章：MVC框架模式发展史&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/compare-mvc-with-anothers/&#34;&gt;第三章：MVC与其他框架模式的比较&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/example-of-mvc-mode/&#34;&gt;第四章：MVC框架模式案例分析&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Model1模式&lt;/strong&gt; 出现前，整个Web应用的情况：几乎全部由JSP页面组成，JSP页面接受处理客户端请求，对请求处理后直接做响应。这样做的弊端是在界面层充斥着大量的业务逻辑的代码和数据访问层代码，Web程序的可扩展性和维护性非常差。（本文以Java举例，不代表该模式只适合Java） &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Javabean&lt;/strong&gt; 是指能完成特定功能的 Java 类。它使得我们能在 JSP 中直接调用，大大提升了程序的可维护性。 &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Struts1框架&lt;/strong&gt; 是apache公司的开源子项目，是基于mvc逻辑分层的web层框架实现。是出现最早的web层框架，应用最广。Struts1框架重点关注的是控制层，对于视图层只是提供了大量的标签；对于model层的影响微乎其微。 &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Spring&lt;/strong&gt; 是一个开源框架，是为了解决企业应用程序开发复杂性而创建的。Spring使用的是基本的JavaBean来完成以前只可能由EJB完成的事情。 &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;&lt;strong&gt;SpringMVC&lt;/strong&gt; 是在Spring框架中内置的MVC子框架。 &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>第一章：认识MVC框架模式</title>
+      <link>http://siteson.github.io/post/what-is-mvc-mode/</link>
+      <pubDate>Mon, 17 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/post/what-is-mvc-mode/</guid>
+      
+        <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
+&lt;p&gt;如何设计一个程序的结构，这是一门专门的学问，叫做&amp;quot;框架模式&amp;rdquo;（architectural pattern），属于编程的方法论。&lt;/p&gt;
+&lt;p&gt;MVC模式就是框架模式的一种，它对我的启发特别大。我觉得它不仅适用于开发软件，也适用于其他广泛的设计和组织工作。&lt;/p&gt;
+&lt;p&gt;MVC模式并没有非常详细的定义，下面是对它的简单梳理，便于整理思路。&lt;/p&gt;
+&lt;h3 id=&#34;part-1&#34;&gt;Part 1&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;MVC模式（Model–view–controller）把软件系统分为三个基本部分：模型(Model)、视图(View)和控制器(Controller)。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这个模式认为，程序不论简单或复杂，从结构上看，都可以分成三层。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1）最上面的一层，是直接面向最终用户的&amp;quot;视图层&amp;rdquo;（View）。它是提供给用户的操作界面，是程序的外壳。&lt;/p&gt;
+&lt;p&gt;2）最底下的一层，是核心的&amp;quot;数据层&amp;rdquo;（Model），也就是程序需要操作的数据或信息。&lt;/p&gt;
+&lt;p&gt;3）中间的一层，就是&amp;quot;控制层&amp;rdquo;（Controller），它负责根据用户从&amp;quot;视图层&amp;quot;输入的指令，选取&amp;quot;数据层&amp;quot;中的数据，然后对其进行相应的操作，产生最终结果。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这三层是紧密联系在一起的，但又是互相独立的，每一层内部的变化不影响其他层。每一层都对外提供接口（Interface），供上面一层调用。这样一来，软件就可以实现模块化，修改外观或者变更数据都不用修改其他层，大大方便了维护和升级。&lt;/p&gt;
+&lt;h3 id=&#34;part-2&#34;&gt;Part 2&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/what-is-mvc-mode/whatismvcmode_3.jpg&#34; alt=&#34;what-is-mvc-mode_3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我用Windows的计算器小程序为例，解释一下MVC模式，虽然它不一定使用这个模式编写。&lt;/p&gt;
+&lt;p&gt;在这个计算器程序中，外部的那些按钮和最上面的显示条，就是&amp;quot;视图层&amp;rdquo;，那些需要运算的数字就是&amp;quot;数据层&amp;rdquo;，执行加减乘除的那些内部运算步骤就是&amp;quot;控制层&amp;rdquo;。每一层执行不同的功能，整个程序的结构非常清楚。&lt;/p&gt;
+&lt;p&gt;如果我们扩大一点想象，就会发现，很多程序本质上都是这种模式：对外提供一组触发器（本例中是按钮），然后执行一些内部操作，最后返回结果。因此，MVC模式的应用是非常广泛的。&lt;/p&gt;
+&lt;h3 id=&#34;part-3&#34;&gt;Part 3&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/what-is-mvc-mode/whatismvcmode_4.jpg&#34; alt=&#34;what-is-mvc-mode_4.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在我看来，不仅编写程序可以用MVC模式，家用电器也可以用。&lt;/p&gt;
+&lt;p&gt;以家用微波炉为例，可以将它也理解成三层结构。最简单的情况下，微波炉的操作用两个转盘实现，一个控制温度，另一个控制时间。这两个转盘就是&amp;quot;视图层&amp;rdquo;（view），而其内部的微波产生装置则是&amp;quot;数据层&amp;rdquo;（Model），这里的&amp;quot;数据&amp;quot;需要理解成&amp;quot;核心功能&amp;rdquo;。至于将用户通过转盘输入的信息，转换成对微波产生器的操作，则用&amp;quot;控制层&amp;quot;来实现。&lt;/p&gt;
+&lt;p&gt;如果每一层都是独立的，那么微波炉外部更换一个新潮的外壳，或者内部更换更大功率的微波产生器，完全可以在不更改其他层的情况下实现。这就是MVC模式的优势。&lt;/p&gt;
+&lt;h3 id=&#34;part-4&#34;&gt;Part 4&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;再进一步，如果将MVC模式解释成&amp;quot;外观&amp;rdquo;、&amp;ldquo;机制&amp;quot;和&amp;quot;功能/数据&amp;quot;这三层结构，那么很多人类组织也可以通过MVC模式架构。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;比如一家商场，完全可以分成三部分。一部分是仓库，负责提供商品，这是&amp;quot;功能层&amp;rdquo;（或者&amp;quot;数据层&amp;rdquo;）；另一部分是零售铺面，负责销售商品，这是它的&amp;quot;外观层&amp;rdquo;；两者之间就是&amp;quot;机制层&amp;rdquo;，包括柜台和仓库之间一切互动的机制。&lt;/p&gt;
+&lt;p&gt;这样区分以后，这个商场的结构就变得非常清楚，可以针对不同的层进行优化，提高效率。&lt;/p&gt;
+&lt;h1 id=&#34;结语&#34;&gt;结语&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;公司、政党、政府、医院、学校等等，这些组织不管是盈利性还是非盈利性的，都可以从MVC模式的角度进行架构，由一个个执行特定功能、可重复使用的模块组成。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;想要了解更多有关MVC的发展与使用，请看&lt;a href=&#34;http://siteson.github.io/post/history-of-mvc-mode/&#34;&gt;下一章节&lt;/a&gt;。&lt;/p&gt;
+&lt;h1 id=&#34;reference&#34;&gt;Reference&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zh.wikipedia.org/wiki/MVC&#34;&gt;MVC.wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://heim.ifi.uio.no/~trygver/themes/mvc/mvc-index.html&#34;&gt;mvc-index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html#//apple_ref/doc/uid/TP40008195-CH32-SW1&#34;&gt;Model-View-Controller.Cocoa-Core-Competencies.apple-developer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ruanyifeng.com/blog/2007/11/mvc.html&#34;&gt;谈谈MVC模式 - 2007.11.08 - 阮一峰&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;index&#34;&gt;Index&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;http://siteson.github.io/categories/mvc%E6%A1%86%E6%9E%B6%E6%A8%A1%E5%BC%8F/&#34;&gt;MVC框架模式系列&lt;/a&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/what-is-mvc-mode/&#34;&gt;第一章：认识MVC框架模式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/history-of-mvc-mode/&#34;&gt;第二章：MVC框架模式发展史&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/compare-mvc-with-anothers/&#34;&gt;第三章：MVC与其他框架模式的比较&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/example-of-mvc-mode/&#34;&gt;第四章：MVC框架模式案例分析&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu使用 V2ray 科学上网</title>
       <link>http://siteson.github.io/post/ubuntu-scientific-internet/</link>
       <pubDate>Sun, 02 Feb 2020 16:01:23 +0800</pubDate>
       
       <guid>http://siteson.github.io/post/ubuntu-scientific-internet/</guid>
       
         <description>&lt;h1 id=&#34;前言&#34;&gt;前言：&lt;/h1&gt;
+&lt;p&gt;V2Ray 是一个与 Shadowsocks 类似的代理软件，可以用来科学上网（翻墙）学习国外先进科学技术。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;随着时间的推移，许多陈年教程贴已经失效。所以我整理了一份较为全面的2020版供大家参考。&lt;br&gt;
 编写平台：Ubuntu 18.04 LTS&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;首先贴上ss的购买链接，在这里你可以买到一份服务器端的账号：&lt;br&gt;
-&lt;a href=&#34;http://jsssa.top/W9MKK&#34;&gt;http://jsssa.top/W9MKK&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;ubuntu-使用-v2ray-科学上网懒人版&#34;&gt;Ubuntu 使用 v2ray 科学上网懒人版：&lt;/h1&gt;
-&lt;p&gt;简单有效的GUI（网友制作的开源项目，可以尝试）&lt;br&gt;
+&lt;a href=&#34;http://jsssa.top/W9MKK&#34;&gt;http://jsssa.top/W9MKK&lt;/a&gt;&lt;br&gt;
+这里面也包含Windows、macOS、Android、iOS的使用指南。&lt;/p&gt;
+&lt;p&gt;已购买或者已拥有相关服务器，请看下面的指南来完成客户端的配置。&lt;/p&gt;
+&lt;h1 id=&#34;gui版&#34;&gt;GUI版：&lt;/h1&gt;
+&lt;p&gt;这是一个&lt;strong&gt;简单有效&lt;/strong&gt;的图形用户界面客户端，可以通过这个链接免费下载：&lt;br&gt;
 &lt;a href=&#34;https://github.com/jiangxufeng/v2rayL&#34;&gt;https://github.com/jiangxufeng/v2rayL&lt;/a&gt;&lt;br&gt;
-但是目前来看并不十分稳定，如果不嫌麻烦，建议使用官方的终端版，也就是下面的版本。&lt;/p&gt;
+但是目前来看并不十分稳定，欢迎去给原作者贡献代码。如果不嫌麻烦，建议使用官方提供的终端版，也就是下面的版本。&lt;/p&gt;
 &lt;h1 id=&#34;终端版&#34;&gt;终端版：&lt;/h1&gt;
 &lt;h3 id=&#34;一通过snap安装v2ray&#34;&gt;一、通过snap安装v2ray&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;sudo snap install v2ray-core&lt;/code&gt;&lt;/p&gt;
@@ -75,10 +389,16 @@ sudo nautilus
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;替换 /etc/v2ray/config.json&lt;/p&gt;
 &lt;h3 id=&#34;二操作-v2ray&#34;&gt;二、操作 v2ray&lt;/h3&gt;
-&lt;p&gt;启动 V2Ray： &lt;code&gt;sudo service v2ray start&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;停止 V2Ray： &lt;code&gt;sudo service v2ray stop&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;重启 V2Ray： &lt;code&gt;sudo service v2ray restart&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;显示 V2Ray 状态： &lt;code&gt;service v2ray status&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;启动 V2Ray：&lt;br&gt;
+&lt;code&gt;sudo service v2ray start&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;停止 V2Ray：&lt;br&gt;
+&lt;code&gt;sudo service v2ray stop&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;重启 V2Ray：&lt;br&gt;
+&lt;code&gt;sudo service v2ray restart&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;显示 V2Ray 状态：&lt;br&gt;
+&lt;code&gt;service v2ray status&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;如果能看到一个绿色的小圆点（如下图所示），则说明运行正常&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/ubuntu-scientific-internet/03-59-17.jpg&#34; alt=&#34;2020-02-17 03-59-17屏幕截图.jpg&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;三设置代理&#34;&gt;三、设置代理&lt;/h3&gt;
 &lt;h4 id=&#34;浏览器下的代理&#34;&gt;浏览器下的代理：&lt;/h4&gt;
 &lt;p&gt;方法a：&lt;/p&gt;
@@ -94,7 +414,7 @@ sudo nautilus
 &lt;blockquote&gt;
 &lt;p&gt;Chrome如果出现安装错误，把文件后缀名改为 7z 或 rar 解压出来，选择“加载已解压的拓展程序”进行安装&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h4 id=&#34;命令行下的代理&#34;&gt;命令行下的代理：&lt;/h4&gt;
+&lt;h4 id=&#34;终端下的代理&#34;&gt;终端下的代理：&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;下载proxy-chain：&lt;br&gt;
@@ -119,20 +439,23 @@ sudo nautilus
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;proxychains wget www.google.com
 sudo proxychains wget www.google.com
-
-&lt;span class=&#34;c1&#34;&gt;# 使用步奏总结：&lt;/span&gt;
-sudo service v2ray start
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;终端下的使用步奏总结：&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo service v2ray start &lt;span class=&#34;c1&#34;&gt;# 开启v2ray&lt;/span&gt;
 proxychains &lt;span class=&#34;c1&#34;&gt;# 你的命令&lt;/span&gt;
-sudo service v2ray stop
+sudo service v2ray stop &lt;span class=&#34;c1&#34;&gt;# 关闭v2ray&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;四配置-pac&#34;&gt;四、配置 PAC&lt;/h3&gt;
@@ -144,7 +467,7 @@ sudo service v2ray stop
 &lt;code&gt;pip install genpac&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;从gfwlist生成代理信息为SOCKS5 127.0.0.1:10808的PAC文件&lt;br&gt;
+&lt;p&gt;从gfwlist生成代理信息为SOCKS5 127.0.0.1:10808的PAC文件：&lt;br&gt;
 &lt;code&gt;genpac --format=pac --pac-proxy=&amp;quot;SOCKS5 127.0.0.1:10808&amp;quot; -o /etc/v2ray/autoproxy.pac&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -152,8 +475,8 @@ sudo service v2ray stop
 &lt;img src=&#34;http://siteson.github.io/images/ubuntu-scientific-internet/03-49-13.png&#34; alt=&#34;2020-01-26 03-49-13屏幕截图.jpg&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;nbsp&#34;&gt; &lt;/h2&gt;
-&lt;p&gt;以上就是Ubuntu使用V2ray科学上网的全部内容。&lt;/p&gt;
+&lt;h1 id=&#34;结语&#34;&gt;结语：&lt;/h1&gt;
+&lt;p&gt;以上就是Ubuntu使用V2ray VPN的全部内容。如有问题，欢迎留言。&lt;/p&gt;
 </description>
       
     </item>

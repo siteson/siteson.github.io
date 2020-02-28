@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Siteson 博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2020 16:01:23 +0800</lastBuildDate>
     
 	<atom:link href="http://siteson.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>framework mode</title>
+      <link>http://siteson.github.io/tags/framework-mode/</link>
+      <pubDate>Fri, 28 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/tags/framework-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MVC框架模式</title>
+      <link>http://siteson.github.io/tags/mvc%E6%A1%86%E6%9E%B6%E6%A8%A1%E5%BC%8F/</link>
+      <pubDate>Fri, 28 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/tags/mvc%E6%A1%86%E6%9E%B6%E6%A8%A1%E5%BC%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software engine</title>
+      <link>http://siteson.github.io/tags/software-engine/</link>
+      <pubDate>Fri, 28 Feb 2020 16:01:23 +0800</pubDate>
+      
+      <guid>http://siteson.github.io/tags/software-engine/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>index</title>
@@ -57,11 +84,11 @@
     </item>
     
     <item>
-      <title>科学上网</title>
-      <link>http://siteson.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</link>
+      <title>VPN</title>
+      <link>http://siteson.github.io/tags/vpn/</link>
       <pubDate>Sun, 02 Feb 2020 16:01:23 +0800</pubDate>
       
-      <guid>http://siteson.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</guid>
+      <guid>http://siteson.github.io/tags/vpn/</guid>
       <description></description>
     </item>
     

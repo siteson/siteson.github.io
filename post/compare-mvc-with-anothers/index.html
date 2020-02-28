@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>第三章：MVC与其他框架模式的比较 - Siteson 博客</title>
+  
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="Bob Si (整理)" />
+  <meta name="description" content="前言 复杂的软件必须有清晰合理的架构，否则无法开发和维护。 MVC（Model-View-Controller）是最常见的软件架构之一，业界有着" />
+
+  <meta name="keywords" content="github, blog, siteson" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.63.2" />
+
+
+<link rel="canonical" href="http://siteson.github.io/post/compare-mvc-with-anothers/" />
+
+
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/sass/jane.min.af20b78e95c84de86b00a0242a4a77bd2601700e1b250edf27537d957ac0041d.css" integrity="sha256-ryC3jpXITehrAKAkKkp3vSYBcA4bJQ7fJ1N9lXrABB0=" media="screen" crossorigin="anonymous">
+
+
+
+
+
+<meta property="og:title" content="第三章：MVC与其他框架模式的比较" />
+<meta property="og:description" content="前言 复杂的软件必须有清晰合理的架构，否则无法开发和维护。 MVC（Model-View-Controller）是最常见的软件架构之一，业界有着" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://siteson.github.io/post/compare-mvc-with-anothers/" />
+<meta property="article:published_time" content="2020-02-26T16:01:23+08:00" />
+<meta property="article:modified_time" content="2020-02-26T16:01:23+08:00" />
+<meta itemprop="name" content="第三章：MVC与其他框架模式的比较">
+<meta itemprop="description" content="前言 复杂的软件必须有清晰合理的架构，否则无法开发和维护。 MVC（Model-View-Controller）是最常见的软件架构之一，业界有着">
+<meta itemprop="datePublished" content="2020-02-26T16:01:23&#43;08:00" />
+<meta itemprop="dateModified" content="2020-02-26T16:01:23&#43;08:00" />
+<meta itemprop="wordCount" content="1021">
+
+
+
+<meta itemprop="keywords" content="MVC框架模式,framework mode,software engine," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="第三章：MVC与其他框架模式的比较"/>
+<meta name="twitter:description" content="前言 复杂的软件必须有清晰合理的架构，否则无法开发和维护。 MVC（Model-View-Controller）是最常见的软件架构之一，业界有着"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Siteson</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://siteson.github.io/">主页</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://siteson.github.io/post/">时间线</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://siteson.github.io/tags/">标签</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://siteson.github.io/categories/">分类</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://siteson.github.io/about/">关于本站</a>
+          
+        
+      </li>
+    
+
+    
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      Siteson
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://siteson.github.io/">主页</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://siteson.github.io/post/">时间线</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://siteson.github.io/tags/">标签</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://siteson.github.io/categories/">分类</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://siteson.github.io/about/">关于本站</a>
+          
+
+        
+
+      </li>
+    
+
+    
+    
+
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">第三章：MVC与其他框架模式的比较</h1>
+      
+      <div class="post-meta">
+        <time datetime="2020-02-26" class="post-time">
+          2020-02-26
+        </time>
+        <div class="post-category">
+            <a href="http://siteson.github.io/categories/mvc%E6%A1%86%E6%9E%B6%E6%A8%A1%E5%BC%8F/"> MVC框架模式 </a>
+            
+          </div>
+        <span class="more-meta"> 约 1021 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
+
+        
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
+        
+
+        
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#一mvc">一、MVC</a></li>
+    <li><a href="#二互动模式">二、互动模式</a></li>
+    <li><a href="#三实例backbone">三、实例：Backbone</a></li>
+    <li><a href="#四mvp">四、MVP</a></li>
+    <li><a href="#五mvvm">五、MVVM</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <h1 id="前言">前言</h1>
+<p>复杂的软件必须有清晰合理的架构，否则无法开发和维护。</p>
+<p>MVC（Model-View-Controller）是最常见的软件架构之一，业界有着广泛应用。它本身很容易理解，但是要讲清楚它与衍生的 MVP 和 MVVM 架构的区别就不容易了。</p>
+<p>昨天晚上，我读了<a href="http://blog.nodejitsu.com/scaling-isomorphic-javascript-code/">《Scaling Isomorphic Javascript Code》</a>，突然意识到，它们的区别非常简单。我用几段话，就可以说清。</p>
+<p>阮一峰<br>
+2015年2月1日</p>
+<h2 id="一mvc">一、MVC</h2>
+<p>MVC模式的意思是，软件可以分成三个部分。</p>
+<p><img src="/images/compare-mvc-with-anothers/20200226001.png" alt="mvc1.png"></p>
+<blockquote>
+<ol>
+<li>视图（View）：用户界面</li>
+<li>控制器（Controller）：业务逻辑</li>
+<li>模型（Model）：数据保存</li>
+</ol>
+</blockquote>
+<p>各部分之间的通信方式如下:</p>
+<p><img src="/images/compare-mvc-with-anothers/20200226002.png" alt="mvc2.png"></p>
+<blockquote>
+<ol>
+<li>View 传送指令到 Controller</li>
+<li>Controller 完成业务逻辑后，要求 Model 改变状态</li>
+<li>Model 将新的数据发送到 View，用户得到反馈</li>
+</ol>
+</blockquote>
+<p>所有通信都是单向的。</p>
+<h2 id="二互动模式">二、互动模式</h2>
+<p>接受用户指令时，MVC 可以分成两种方式。一种是通过 View 接受指令，传递给 Controller。</p>
+<p><img src="/images/compare-mvc-with-anothers/20200226003.png" alt="interact.png"></p>
+<p>另一种是直接通过controller接受指令。</p>
+<h2 id="三实例backbone">三、实例：Backbone</h2>
+<p>实际项目往往采用更灵活的方式，以 <a href="https://github.com/jashkenas/backbone/">Backbone.js</a> 为例。</p>
+<p><img src="/images/compare-mvc-with-anothers/20200226004.png" alt="backbone.png"></p>
+<ol>
+<li>
+<p>用户可以向 View 发送指令（DOM 事件），再由 View 直接要求 Model 改变状态。</p>
+</li>
+<li>
+<p>用户也可以直接向 Controller 发送指令（改变 URL 触发 hashChange 事件），再由 Controller 发送给 View。</p>
+</li>
+<li>
+<p>Controller 非常薄，只起到路由的作用，而 View 非常厚，业务逻辑都部署在 View。所以，Backbone 索性取消了 Controller，只保留一个 Router（路由器） 。</p>
+</li>
+</ol>
+<h2 id="四mvp">四、MVP</h2>
+<p>MVP 模式将 Controller 改名为 Presenter，同时改变了通信方向。</p>
+<p><img src="/images/compare-mvc-with-anothers/20200226005.png" alt="mvp.png"></p>
+<ol>
+<li>
+<p>各部分之间的通信，都是双向的。</p>
+</li>
+<li>
+<p>View 与 Model 不发生联系，都通过 Presenter 传递。</p>
+</li>
+<li>
+<p>View 非常薄，不部署任何业务逻辑，称为&quot;被动视图&rdquo;（Passive View），即没有任何主动性，而 Presenter非常厚，所有逻辑都部署在那里。</p>
+</li>
+</ol>
+<h2 id="五mvvm">五、MVVM</h2>
+<p>MVVM 模式将 Presenter 改名为 ViewModel，基本上与 MVP 模式完全一致。</p>
+<p><img src="/images/compare-mvc-with-anothers/20200226006.png" alt="mvvm.png"></p>
+<p>唯一的区别是，它采用双向绑定（data-binding）：View的变动，自动反映在 ViewModel，反之亦然。<a href="https://angularjs.org/">Angular</a> 和 <a href="https://emberjs.com/">Ember</a> 都采用这种模式。</p>
+<h1 id="结语">结语</h1>
+<p>在前面的章节中，我们学习了MVC的基本原理，梳理了它的发展历史，本章MVC与其他框架模式的比较也到此结束。看完这些，相信你已经能够掌握它的设计思路。在<a href="/post/example-of-mvc-mode/">下一章节</a>中我将为大家剖析一个使用MVC模式架构的应用，一起从入门到精通！</p>
+<h1 id="reference">Reference</h1>
+<ul>
+<li><a href="https://zh.wikipedia.org/wiki/MVC">MVC.wiki</a></li>
+<li><a href="http://heim.ifi.uio.no/~trygver/themes/mvc/mvc-index.html">mvc-index</a></li>
+<li><a href="https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html#//apple_ref/doc/uid/TP40008195-CH32-SW1">Model-View-Controller.Cocoa-Core-Competencies.apple-developer</a></li>
+<li><a href="http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html">MVC，MVP 和 MVVM 的图示 - 阮一峰</a></li>
+</ul>
+<h1 id="index">Index</h1>
+<p><a href="/categories/mvc%E6%A1%86%E6%9E%B6%E6%A8%A1%E5%BC%8F/">MVC框架模式系列</a>：</p>
+<ul>
+<li><a href="/post/what-is-mvc-mode/">第一章：认识MVC框架模式</a></li>
+<li><a href="/post/history-of-mvc-mode/">第二章：MVC框架模式发展史</a></li>
+<li><a href="/post/compare-mvc-with-anothers/">第三章：MVC与其他框架模式的比较</a></li>
+<li><a href="/post/example-of-mvc-mode/">第四章：MVC框架模式案例分析</a></li>
+</ul>
+
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">Bob Si (整理)</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2020-02-26
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="http://siteson.github.io/tags/mvc%E6%A1%86%E6%9E%B6%E6%A8%A1%E5%BC%8F/">MVC框架模式</a>
+          <a href="http://siteson.github.io/tags/framework-mode/">framework mode</a>
+          <a href="http://siteson.github.io/tags/software-engine/">software engine</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/example-of-mvc-mode/">
+            
+            <i class="iconfont">
+              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
+</svg>
+
+            </i>
+            <span class="prev-text nav-default">第四章：MVC框架模式案例分析</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/post/history-of-mvc-mode/">
+            <span class="next-text nav-default">第二章：MVC框架模式发展史</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "siteson/blogs-repo"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+  
+
+  
+
+  
+
+  
+
+    
+
+  
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="icon-links">
+  
+  
+    <a href="https://github.com/siteson" rel="me noopener" class="iconfont"
+      title="github"  target="_blank"
+      >
+      <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M512 12.672c-282.88 0-512 229.248-512 512 0 226.261333 146.688 418.133333 350.08 485.76 25.6 4.821333 34.986667-11.008 34.986667-24.618667 0-12.16-0.426667-44.373333-0.64-87.04-142.421333 30.890667-172.458667-68.693333-172.458667-68.693333C188.672 770.986667 155.008 755.2 155.008 755.2c-46.378667-31.744 3.584-31.104 3.584-31.104 51.413333 3.584 78.421333 52.736 78.421333 52.736 45.653333 78.293333 119.850667 55.68 149.12 42.581333 4.608-33.109333 17.792-55.68 32.426667-68.48-113.706667-12.8-233.216-56.832-233.216-253.013333 0-55.893333 19.84-101.546667 52.693333-137.386667-5.76-12.928-23.04-64.981333 4.48-135.509333 0 0 42.88-13.738667 140.8 52.48 40.96-11.392 84.48-17.024 128-17.28 43.52 0.256 87.04 5.888 128 17.28 97.28-66.218667 140.16-52.48 140.16-52.48 27.52 70.528 10.24 122.581333 5.12 135.509333 32.64 35.84 52.48 81.493333 52.48 137.386667 0 196.693333-119.68 240-233.6 252.586667 17.92 15.36 34.56 46.762667 34.56 94.72 0 68.522667-0.64 123.562667-0.64 140.202666 0 13.44 8.96 29.44 35.2 24.32C877.44 942.592 1024 750.592 1024 524.672c0-282.752-229.248-512-512-512"></path>
+</svg>
+
+    </a>
+
+ 
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    2020
+    <span class="heart">
+      
+      <i class="iconfont">
+        <svg class="icon" viewBox="0 0 1025 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="14" height="14">
+  <path d="M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-85-201-85-85.7 0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1 0-146.5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2 0.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2 0 18.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-178.2 69.5-57.9 109.6-144.4 109.9-237.3 0.1-42.5-8-83.6-24-122.2z"
+   fill="#8a8a8a"></path>
+</svg>
+
+      </i>
+    </span><span class="author">
+        Bob Si
+        
+      </span></span>
+
+  
+  
+    <span id="busuanzi_container">
+      访客数: <span id="busuanzi_value_site_uv"></span> 访问量: <span id="busuanzi_value_site_pv"></span>
+    </span>
+  
+
+  
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont">
+        
+        <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="35" height="35">
+  <path d="M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></path>
+</svg>
+
+      </i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+
+
+
+
+<script type="text/javascript" src="/js/main.dee43230127a73d039a734510fa896c89c3c7ce0cf0be0c7a7433f8fd69b76dc.js" crossorigin="anonymous"></script>
+
+
+
+
+  <script type="text/javascript">
+    window.MathJax = {
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
