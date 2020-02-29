@@ -26,7 +26,7 @@
       <pubDate>Fri, 28 Feb 2020 16:01:23 +0800</pubDate>
       
       <guid>http://siteson.github.io/post/example-of-mvc-mode/</guid>
-      <description>前言 Slime是一个基于MVC模式的PHP框架，它非常简单且功能强大。 对于分析MVC框架模式来说，这是一个很好的例子。 Part 1 有空再写 结语 null Reference MVC.wiki</description>
+      <description>前言 如果你想使用 MVC 模式开发应用，我们没必要从零开始，使用现成的骨架是一个不错的选择。无论是web、Android、iOS 还是别的应用场景，都</description>
     </item>
     
     <item>
