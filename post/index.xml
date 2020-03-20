@@ -56,14 +56,5 @@
       <description>前言 如何设计一个程序的结构，这是一门专门的学问，叫做&amp;quot;框架模式&amp;rdquo;（architectural pattern），属于编程</description>
     </item>
     
-    <item>
-      <title>Ubuntu使用 V2ray 科学上网</title>
-      <link>http://siteson.github.io/post/ubuntu-scientific-internet/</link>
-      <pubDate>Sun, 02 Feb 2020 16:01:23 +0800</pubDate>
-      
-      <guid>http://siteson.github.io/post/ubuntu-scientific-internet/</guid>
-      <description>前言： V2Ray 是一个与 Shadowsocks 类似的代理软件，可以用来科学上网（翻墙）学习国外先进科学技术。 随着时间的推移，许多陈年教程贴已经失效。所以我整理了一份较为</description>
-    </item>
-    
   </channel>
 </rss>

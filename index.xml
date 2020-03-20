@@ -6,7 +6,7 @@
     <description>Recent content on Siteson 博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 28 Feb 2020 16:01:23 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://siteson.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -488,135 +488,6 @@ Struts2 Action是多例的，可以使用成员变量获取参数，导致效率
 &lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/compare-mvc-with-anothers/&#34;&gt;第三章：MVC与其他框架模式的比较&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://siteson.github.io/post/example-of-mvc-mode/&#34;&gt;第四章：MVC框架模式案例分析&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>Ubuntu使用 V2ray 科学上网</title>
-      <link>http://siteson.github.io/post/ubuntu-scientific-internet/</link>
-      <pubDate>Sun, 02 Feb 2020 16:01:23 +0800</pubDate>
-      
-      <guid>http://siteson.github.io/post/ubuntu-scientific-internet/</guid>
-      
-        <description>&lt;h1 id=&#34;前言&#34;&gt;前言：&lt;/h1&gt;
-&lt;p&gt;V2Ray 是一个与 Shadowsocks 类似的代理软件，可以用来科学上网（翻墙）学习国外先进科学技术。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;随着时间的推移，许多陈年教程贴已经失效。所以我整理了一份较为全面的2020版供大家参考。&lt;br&gt;
-编写平台：Ubuntu 18.04 LTS&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;首先贴上ss的购买链接，在这里你可以买到一份服务器端的账号：&lt;br&gt;
-&lt;a href=&#34;https://jsssjump.com/W9MKK&#34;&gt;https://jsssjump.com/W9MKK&lt;/a&gt;&lt;br&gt;
-这里面也包含Windows、macOS、Android、iOS的使用指南。&lt;/p&gt;
-&lt;p&gt;已购买或者已拥有相关服务器，请看下面的指南来完成客户端的配置。&lt;/p&gt;
-&lt;h1 id=&#34;gui版&#34;&gt;GUI版：&lt;/h1&gt;
-&lt;p&gt;这是一个&lt;strong&gt;简单有效&lt;/strong&gt;的图形用户界面客户端，可以通过这个链接免费下载：&lt;br&gt;
-&lt;a href=&#34;https://github.com/jiangxufeng/v2rayL&#34;&gt;https://github.com/jiangxufeng/v2rayL&lt;/a&gt;&lt;br&gt;
-但是目前来看并不十分稳定，欢迎去给原作者贡献代码。如果不嫌麻烦，建议使用官方提供的终端版，也就是下面的版本。&lt;/p&gt;
-&lt;h1 id=&#34;终端版&#34;&gt;终端版：&lt;/h1&gt;
-&lt;h3 id=&#34;一通过snap安装v2ray&#34;&gt;一、通过snap安装v2ray&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;sudo snap install v2ray-core&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;由于终端下不支持使用订阅链接，所以填写配置信息需要先转到windows平台，在windows端的v2rayN安装目录中找到 config.json ，然后&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 以管理员身份打开文件管理器&lt;/span&gt;
-sudo nautilus
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;替换 /etc/v2ray/config.json&lt;/p&gt;
-&lt;h3 id=&#34;二操作-v2ray&#34;&gt;二、操作 v2ray&lt;/h3&gt;
-&lt;p&gt;启动 V2Ray：&lt;br&gt;
-&lt;code&gt;sudo service v2ray start&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;停止 V2Ray：&lt;br&gt;
-&lt;code&gt;sudo service v2ray stop&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;重启 V2Ray：&lt;br&gt;
-&lt;code&gt;sudo service v2ray restart&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;显示 V2Ray 状态：&lt;br&gt;
-&lt;code&gt;service v2ray status&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;如果能看到一个绿色的小圆点（如下图所示），则说明运行正常&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/ubuntu-scientific-internet/03-59-17.jpg&#34; alt=&#34;2020-02-17 03-59-17屏幕截图.jpg&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;三设置代理&#34;&gt;三、设置代理&lt;/h3&gt;
-&lt;h4 id=&#34;浏览器下的代理&#34;&gt;浏览器下的代理：&lt;/h4&gt;
-&lt;p&gt;方法a：&lt;/p&gt;
-&lt;p&gt;打开系统网络设置，把网络代理设为手动。socks 中填入回环ip，端口中填入v2ray配置文件里的监听端口，“忽略主机”填入 127.0.0.1;[::1];localhost&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;在不使用代理的时候需要重新设为禁用，否则stop v2ray后会失去网络连接。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;http://siteson.github.io/images/ubuntu-scientific-internet/03-39-12.png&#34; alt=&#34;2020-01-26 03-39-12屏幕截图.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;方法b：&lt;/p&gt;
-&lt;p&gt;使用 SwitchyOmega 插件进行带PAC模式的连接。&lt;/p&gt;
-&lt;p&gt;安装 SwitchyOmega 插件：
-&lt;a href=&#34;https://github.com/FelisCatus/SwitchyOmega/releases&#34;&gt;https://github.com/FelisCatus/SwitchyOmega/releases&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Chrome如果出现安装错误，把文件后缀名改为 7z 或 rar 解压出来，选择“加载已解压的拓展程序”进行安装&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&#34;终端下的代理&#34;&gt;终端下的代理：&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;下载proxy-chain：&lt;br&gt;
-&lt;code&gt;sudo apt install proxychains&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;修改参数:&lt;br&gt;
-&lt;code&gt;sudo nano /etc/proxychains.conf&lt;/code&gt;&lt;br&gt;
-最后一行改为： socks5 127.0.0.1 10808&lt;br&gt;
-这里的10808就是v2ray的socks5 代理端口，要保持和config里一致。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;测试proxy-chain:&lt;br&gt;
-&lt;code&gt;proxychains wget http://www.google.com&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;使用proxy-chain:&lt;br&gt;
-在你的命令前加上 &lt;code&gt;proxychains&lt;/code&gt; 如：&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;proxychains wget www.google.com
-sudo proxychains wget www.google.com
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;strong&gt;终端下的使用步奏总结：&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;sudo service v2ray start &lt;span class=&#34;c1&#34;&gt;# 开启v2ray&lt;/span&gt;
-proxychains &lt;span class=&#34;c1&#34;&gt;# 你的命令&lt;/span&gt;
-sudo service v2ray stop &lt;span class=&#34;c1&#34;&gt;# 关闭v2ray&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;四配置-pac&#34;&gt;四、配置 PAC&lt;/h3&gt;
-&lt;p&gt;PAC(Proxy auto-config)：使国内网站依旧走本地网络
-我们通过&lt;a href=&#34;https://github.com/JinnLynn/genpac&#34;&gt;GenPAC&lt;/a&gt;来生成pac文件&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;安装&lt;br&gt;
-&lt;code&gt;pip install genpac&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;从gfwlist生成代理信息为SOCKS5 127.0.0.1:10808的PAC文件：&lt;br&gt;
-&lt;code&gt;genpac --format=pac --pac-proxy=&amp;quot;SOCKS5 127.0.0.1:10808&amp;quot; -o /etc/v2ray/autoproxy.pac&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;把pac文件的位置填入自动网络代理的“配置URL”中：&lt;br&gt;
-&lt;img src=&#34;http://siteson.github.io/images/ubuntu-scientific-internet/03-49-13.png&#34; alt=&#34;2020-01-26 03-49-13屏幕截图.jpg&#34;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;结语&#34;&gt;结语：&lt;/h1&gt;
-&lt;p&gt;以上就是 Ubuntu 使用 V2ray 科学上网的全部内容。如有问题，欢迎留言。&lt;/p&gt;
 </description>
       
     </item>
